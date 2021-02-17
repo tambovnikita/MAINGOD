@@ -1,32 +1,14 @@
-# Prerequisites
-*.d
+# Build files and folders
+.gradle/
+build/
+keys/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Properties
+local.properties
 
-# Precompiled Headers
-*.gch
-*.pch
+# Idea
+.idea/
+**/*.iml
 
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+# Mac OS
+.DS_Store
