@@ -7,6 +7,18 @@ public class Main {
     public static void main(String[] args) {
         Scanner num = new Scanner(System.in);
 
+        // Данные для зрителя
+        System.out.println("Введите x, H для зрителя: ");
+        System.out.print("x = ");
+        int x_Man = num.nextInt();
+        System.out.print("H = ");
+        int H_Man = num.nextInt();
+
+
+        // R ( расстояние между фигурой N и оболочкой)
+        System.out.print("Введите R (расстояние между фигурой N и оболочкой) = ");
+        int R = num.nextInt();
+
 
         // Данные для фигуры N
         System.out.print("Введите кол-во точек фигуры N: ");
